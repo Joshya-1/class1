@@ -1,6 +1,24 @@
 h1{
-    color: pink;
+    color: #ff2a00;
 }
+
 *{
+    color: aqua;
+    background-color:#FABC3C;
 
 }
+
+.one{ color: #ff5b14;
+
+}
+
+.two{
+    color:#d96200 ;
+}
+
+
+.imp{
+    color:#a26400;
+    /* background-color: #FABC3C;  */
+}
+
