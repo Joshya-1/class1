@@ -1,6 +1,34 @@
 h1{
-    color: pink;
+    color: #ff2a00;
 }
+
+*{
+    color: aqua;
+    background-color:#FABC3C;
+
+}
+
+.one{ color: #ff5b14;
+
+}
+
+.two{
+    color:#d96200 ;
+}
+
+
+.imp{
+    color:#a26400;
+    /* background-color: #FABC3C;  */
+}
+#three{
+    color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(255, 255, 255, 0.699);
+}
+<<<<<<< HEAD
 *{
     background-color: black;
 }
+=======
+
+>>>>>>> 6b16d5ccd3792bbefd19329e948bf091e8f4bffc
