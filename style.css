@@ -28,3 +28,8 @@ h1{
 *{
     background-color: black;
 }
+p{
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+}
