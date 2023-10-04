@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kablammo&display=swap');
+
+
+h1{
+    text-transform: uppercase;
+    
+    text-decoration: line-through;
+}
+*{
+    background-color: aqua;
+}
+/* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+p{
+    font-variant: 'Dancing Script', cursive;
+    
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Kablammo', cursive; */
+    /* font-stretch: ultra-expanded;
+    text-transform: uppercase; */
+}
+
+.txt{
+    /* line-height: 150%;
+    letter-spacing: .5em;
+    word-spacing: 150%; */
+    text-align: justify;
+
+}
+
+h1{
+    text-align: right;
+    
+}
+
+
