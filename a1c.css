@@ -6,6 +6,8 @@ h1{
     text-transform: uppercase;
     
     text-decoration: line-through;
+    
+    text-shadow:8px 6px 4px rgb(255, 52, 220);
 }
 *{
     background-color: aqua;
@@ -16,8 +18,19 @@ h1{
 
 p{
     font-variant: 'Dancing Script', cursive;
+    /* text-transform: capitalize; */
+    text-decoration: underline;
+/* overline,underline,line-through */
+    /* line-height:5em; */
+    /* letter-spacing: 1em; */
+    /* word-spacing: 2em; */
+    text-align: left;
+    text-align: justify;
+    text-indent: 45px;
     
 }
+
+
 
 p{
     font-family: 'Dancing Script', cursive;
@@ -34,9 +47,37 @@ p{
 
 }
 
-h1{
-    text-align: right;
+/* h1{
+    text-shadow:8px 6px 4px rgb(255, 52, 220);
     
+} */
+
+/* sudo elemments */
+
+p::first-letter{
+    font-size: 2em;
+}
+p::first-line{
+    color: brown;
 }
 
+a:visited{
+    color: rgb(0, 114, 25);
+}
 
+a:link{
+    color: rgb(255, 106, 0);
+}
+
+a:hover{
+    color: rgb(255, 0, 136);
+    text-shadow: 0px 0px 4px;
+}
+
+a:active{
+    color: blue;
+}
+
+a:focus{
+    color: rgb(21, 255, 0);
+}
