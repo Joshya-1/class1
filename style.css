@@ -29,6 +29,7 @@ h1{
 *{
     background-color: black;
 }
+<<<<<<< HEAD
 
 #four{
     font-family: cursive;
@@ -39,3 +40,10 @@ h1{
 
 }
 
+=======
+p{
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+}
+>>>>>>> cc2ad4788bf7867e9adaee0bb53a642df00c97ee
