@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+}
+/* child selectors */
+div > h2 {
+    color: aqua;
+}
+/* decendent selectors */
+h4 a{
+    color: rgb(43, 226, 171);
+}
+
+p a{
+    color: rgb(255, 17, 0);
+}
+/* sibiling selectors */
+h5~h6{
+    color: brown;
+}
+
+/* adjacent sibiling selectors */
+h4+h5{
+    color: chartreuse;
+}
+
+h6+p{
+    color: chartreuse;
+}
+
+h5{
+    color: blue !important;
+}
+
+p[class]{
+    color: brown;
+}
+
+p[id="a3"]{
+    color: chartreuse;
+}
+
+p#a1{
+    color: blue;
+}
+
+/* prefix */
+
+p[class^="a"]{
+    color: darkblue ;
+}
+
+/* suffix */
+
+p[class$="r"]{
+    color: darkgreen;
+}
+
+/* substring */
+
+p[class*="qw"]{
+    color: rgb(255, 0, 191);
+}
+
+p[id*="qw"]{
+    color: rgb(255, 0, 191);
+}
+
+
+
